@@ -18,16 +18,16 @@ const iconSize = 30;
 const features = [
   {
     color: "#00C853",
-    headline: "Feature 1",
+    headline: "Airdrop",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "",
     icon: <BuildIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "0"
   },
   {
     color: "#6200EA",
-    headline: "Feature 2",
+    headline: "Marketplace",
     text:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
     icon: <CalendarTodayIcon style={{ fontSize: iconSize }} />,
@@ -36,7 +36,7 @@ const features = [
   },
   {
     color: "#0091EA",
-    headline: "Feature 3",
+    headline: "Partenership",
     text:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
     icon: <MeassageIcon style={{ fontSize: iconSize }} />,
@@ -45,7 +45,7 @@ const features = [
   },
   {
     color: "#d50000",
-    headline: "Feature 4",
+    headline: "2nd Generation",
     text:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
     icon: <ComputerIcon style={{ fontSize: iconSize }} />,
@@ -54,7 +54,7 @@ const features = [
   },
   {
     color: "#DD2C00",
-    headline: "Feature 5",
+    headline: "",
     text:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
     icon: <BarChartIcon style={{ fontSize: iconSize }} />,
