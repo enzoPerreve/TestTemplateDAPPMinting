@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { useDispatch, useSelector } from "react-redux";
 import { connect } from "../../../redux/blockchain/blockchainActions";
 import { fetchData } from "../../../redux/data/dataActions";
-import JJ from "../../../images/JJ.png";
+import JJ from "../../../images/eee.gif";
 import classNames from "classnames";
 import {
   Grid,
@@ -199,6 +199,13 @@ function HeadSection(props) {
                           1 $AVAX for an AlpsHunks 
                         </Typography>
                       </Box>
+                      <Box>
+                      <Typography
+                          variant={isWidthUp("lg", width) ? "h3" : "h4"}
+                        >
+                          69/10000
+                        </Typography>
+                      </Box>
                     
                       <div>
                         <Box mb={2}>
@@ -207,7 +214,6 @@ function HeadSection(props) {
                             color="textSecondary"
                           >
                             We chose avalanche for its speed and low cost. Connect to mint an Alpshunks ! 
-                             {data.totalSupply}/10000
                           </Typography>
                         </Box>
                         <Button
@@ -234,13 +240,20 @@ function HeadSection(props) {
                         justifyContent="space-between"
                         height="100%"
                       >
-                        <Box mb={4}>
-                          <Typography
-                            variant={isWidthUp("lg", width) ? "h3" : "h4"}
-                          >
-                            {data.totalSupply}/10000 
-                          </Typography>
-                        </Box>
+                      <Box mb={4}>
+                        <Typography
+                          variant={isWidthUp("lg", width) ? "h3" : "h4"}
+                        >
+                          1 $AVAX for an AlpsHunks 
+                        </Typography>
+                      </Box>
+                      <Box>
+                      <Typography
+                          variant={isWidthUp("lg", width) ? "h3" : "h4"}
+                        >
+                          69/10000
+                        </Typography>
+                      </Box>
                       
                         <div>
                           <Box mb={2}>
@@ -248,7 +261,7 @@ function HeadSection(props) {
                               variant={isWidthUp("lg", width) ? "h6" : "body1"}
                               color="textSecondary"
                             >
-                             {claimingNft ? "BUSY" : "BUY 1"}
+                             {claimingNft ? "BUSY" : ""}
                             </Typography>
                           </Box>
                           <Button
@@ -264,7 +277,7 @@ function HeadSection(props) {
                               getData();
                             }}
                           >
-                            connect
+                            Get an AlpsHunks
                           </Button>
                         </div>
                         </Box>
@@ -277,7 +290,7 @@ function HeadSection(props) {
                       <ZoomImage
                         src={JJ}
                         className={classes.image}
-                        alt="header example"
+                        alt="AlpsHunksGif"
                       />
                     </Grid>
                   </Hidden>

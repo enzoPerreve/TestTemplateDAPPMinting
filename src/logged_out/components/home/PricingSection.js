@@ -136,7 +136,7 @@ function PricingSection(props) {
                   <Typography display="inline"> %</Typography>
                 </span>
               }
-              features={["Distribution of the Airdrop V2", "Launch of the second generation ! Owners of the first generation will be rewarded with a 30% share on the minting of the second generation"]}
+              features={["Distribution of the Airdrop V2", "Launch of the second generation ! ","Owners of the first generation will be rewarded with a 30% share on the minting of the second generation"]}
             />
           </Grid>
         </Grid>
