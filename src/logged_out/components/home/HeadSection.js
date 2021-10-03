@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { useDispatch, useSelector } from "react-redux";
 import { connect } from "../../../redux/blockchain/blockchainActions";
 import { fetchData } from "../../../redux/data/dataActions";
-import JJ from "../../../images/eee.gif";
+import gif2 from "../../../images/gif2.gif";
 import classNames from "classnames";
 import {
   Grid,
@@ -196,14 +196,14 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          1 $AVAX for an AlpsHunks 
+                          0,5 $AVAX for an AlpsHunks 
                         </Typography>
                       </Box>
                       <Box>
                       <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          69/10000
+                          69/1000
                         </Typography>
                       </Box>
                     
@@ -244,14 +244,14 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          1 $AVAX for an AlpsHunks 
+                          0,5 $AVAX for an AlpsHunks 
                         </Typography>
                       </Box>
                       <Box>
                       <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          69/10000
+                          69/1000
                         </Typography>
                       </Box>
                       
@@ -288,7 +288,7 @@ function HeadSection(props) {
                   <Hidden smDown>
                     <Grid item md={6}>
                       <ZoomImage
-                        src={JJ}
+                        src={gif2}
                         className={classes.image}
                         alt="AlpsHunksGif"
                       />
