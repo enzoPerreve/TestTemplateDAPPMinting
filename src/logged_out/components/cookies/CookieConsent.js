@@ -94,7 +94,7 @@ function CookieConsent(props) {
       open={isVisible}
       message={
         <Typography className="text-white">
-          We use cookies to ensure you get the best experience on our website.{" "}
+          AlpsHunks is the new NFT only Avalanche Come and get one ! {" "}
         </Typography>
       }
       action={

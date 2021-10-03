@@ -47,7 +47,7 @@ const content1 = (
 
 
 
-const content = (
+const content2 = (
   <Fragment>
     <Typography variant="h6" paragraph>  
       What will the second generation be based on ?
@@ -68,14 +68,120 @@ const content = (
   </Fragment>
 );
 
+const content3 = (
+  <Fragment>
+    <Typography variant="h6" paragraph>  
+    What is the date of the marketplace ?
+    </Typography>
+    <Typography paragraph>
+    The marketplace will be launched once the 2 generations are sold out.
+    </Typography>
+    <Typography variant="h6" paragraph>
+    Where will the marketplace be? 
+    </Typography>
+    <Typography paragraph>
+    The marketplace will be here you can trade, sell, or buy your Alpshunks of all generations. 
+    </Typography>
+    <Typography variant="h6" paragraph>
+    How will holders be rewarded? 
+    </Typography>
+    <Typography paragraph>
+    Via a simple fee distribution system ! All AlpsHunks owners will receive a 4% fee on each transaction
+    </Typography>
+  </Fragment>
+);
+
+const content4= (
+  <Fragment>
+    <Typography variant="h6" paragraph>  
+    How can I find out more about the rarity of my Alpshunks ? 
+    </Typography>
+    <Typography paragraph>
+    For Alpshunks V2 the rarity will be done via a classic system of point a computer on discord will give you the necessary information. 
+    For the V1 the rarity is defined like this:
+    </Typography>
+    <Typography variant="h6" paragraph>
+    Do you have a Legendary AlpsHunks ?
+
+    5%
+    </Typography>
+    <Typography paragraph>
+    You are selected to have an Airdrop of the 2nd generation !
+
+    You will recover the fees on each minting of the 2nd generation, 30% (2.22 $AVAX) to be shared between the holders.
+
+    You will share between the holders the 4% of fees when people put their AlpsHunks for sale on the marketplace.
+    </Typography>
+    <Typography variant="h6" paragraph>
+    Do you have a Rare AlpsHunks ?
+
+20%
+    </Typography>
+    <Typography paragraph>
+    Do you have a Rare AlpsHunks ?
+
+20%
+
+You are selected to have an Airdrop of the 2nd generation !
+
+You will recover the fees on each minting of the 2nd generation, 30% (2.22 $AVAX) to be shared between the holders.
+
+You will share between the holders the 4% of fees when people put their AlpsHunks for sale on the marketplace.
+    </Typography>
+    <Typography variant="h6" paragraph>
+    Do you have a Uncommon AlpsHunks ?
+
+30%
+    </Typography>
+    <Typography paragraph>
 
 
+You will recover the fees on each minting of the 2nd generation, 30% (2.22 $AVAX) to be shared between the holders.
+
+You will share between the holders the 4% of fees when people put their AlpsHunks for sale on the marketplace.
+    </Typography>
+    <Typography variant="h6" paragraph>
+    Do you have a Common AlpsHunks ?
+
+35%
+    </Typography>
+    <Typography paragraph>
+
+
+You will recover the fees on each minting of the 2nd generation, 30% (2.22 $AVAX) to be shared between the holders.
+
+You will share between the holders the 4% of fees when people put their AlpsHunks for sale on the marketplace.
+    </Typography>
+  </Fragment>
+);
+
+const content5 = (
+  <Fragment>
+    <Typography variant="h6" paragraph>  
+    How can I find out more about the roadmap ?
+    </Typography>
+    <Typography paragraph>
+    You can find more information about the roadmap at the bottom of our homepage and soon more about the roadmap of our V2 
+    </Typography>
+  </Fragment>
+);
+
+const content6 = (
+  <Fragment>
+    <Typography variant="h6" paragraph>  
+    How can I find out more about the roadmap ?
+    </Typography>
+    <Typography paragraph>
+    You can find more information about the roadmap at the bottom of our homepage and soon more about the roadmap of our V2 
+    </Typography>
+  </Fragment>
+);
 const posts = [
   {
     title: "AlpsHunks 1st generation",
     id: 1,
     date: 1576341900,
-    src: `${process.env.PUBLIC_URL}/images/logged_out/blogPost1.jpg`,
+    src: `${process.env.PUBLIC_URL}/eee.gif`,
     snippet:
    " What is the interest to get AlpsHunks 1st generation ?",
     content: content1,
@@ -84,46 +190,46 @@ const posts = [
     title: "AlpsHunksV2",
     id: 2,
     date: 1576391600,
-    src: `${process.env.PUBLIC_URL}/images/logged_out/blogPost2.jpg`,
+    src: `${process.env.PUBLIC_URL}/JJ.png`,
     snippet:
-    "",
-    content: content,
+    "More information about V2",
+    content: content2,
   },
   {
-    title: "Post 3",
+    title: "Marketplace ",
     id: 3,
     date: 1577391600,
     src: `${process.env.PUBLIC_URL}/images/logged_out/blogPost3.jpg`,
     snippet:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    content: content,
+      "More information about Marketplace.",
+    content: content3,
   },
   {
-    title: "Post 4",
+    title: "Rarity",
     id: 4,
     date: 1572281600,
     src: `${process.env.PUBLIC_URL}/images/logged_out/blogPost4.jpg`,
     snippet:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    content: content,
+      "How can I find out more about the rarity of my Alpshunks? ",
+    content: content4,
   },
   {
-    title: "Post 5",
+    title: "RoadMap",
     id: 5,
     date: 1573281600,
     src: `${process.env.PUBLIC_URL}/images/logged_out/blogPost5.jpg`,
     snippet:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    content: content,
+      "How can I find out more about the roadmap ? ",
+    content: content5,
   },
   {
-    title: "Post 6",
+    title: "AlpsHunks Sold ",
     id: 6,
     date: 1575281600,
     src: `${process.env.PUBLIC_URL}/images/logged_out/blogPost6.jpg`,
     snippet:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-    content: content,
+      "To learn more about our sale period ! ",
+    content: content6,
   },
 ];
 
